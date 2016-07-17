@@ -1,0 +1,97 @@
+
+<form id="691502617">
+<property name="name" value="Task1-taskform.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;url1_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{url1}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;url1_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{url1}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;a href=&quot;&quot; id=&quot;myHref&quot; target=&quot;_blank&quot;&gt;Click me&lt;/a&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;url2_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{url2}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;url2_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{url2}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;urlString_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{urlString}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;urlString_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{urlString}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;script&gt; 
+$(document).ready(function(){
+var txt = $(&apos;#urlString&apos;).val();
+document.getElementById(&quot;myHref&quot;).href = txt;
+}); 
+&lt;/script&gt; 
+"/>
+<field position="0" name="url1" type="InputText" id="1509482166">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;url1 (url1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="url1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="url2" type="InputText" id="1808473809">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;url2 (url2)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="url2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="urlString" type="InputText" id="603714785">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;urlString (urlString)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="urlString"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="url1" name="#FF54A7" type="basicType" outId="" value="java.lang.String" id="url1"/>
+<dataHolder inputId="url2" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="url2"/>
+<dataHolder inputId="urlString" name="#9BCAFA" type="basicType" outId="" value="java.lang.String" id="urlString"/>
+</form>
